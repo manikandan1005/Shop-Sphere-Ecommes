@@ -1,0 +1,35 @@
+<body style="height: 500px;">
+    
+    <h1>ngFor</h1>
+<p *ngFor=" let a of movies">{{a}}</p>
+<input type="checkbox" [(ngModel)]="hi">
+<div > welcome
+    <div class="cointainer">
+        <div class="row">
+    
+            <div  *ngFor="let product of products"  class=" my-3 col-lg-3 col-md-6 col-sm-12 items "> 
+                <div class=" card p-3 rounded">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/2/o/e/m-seersucker-popcorn-half-sleeve-shirt-for-men-solstice-original-imagvg674nhezgpb.jpeg?q=90&crop=false" alt="">
+                <ul>
+                    <li>Casual Beige Shirt</li>
+                    <li><b>M L XL XXL</b></li>
+                    <li>599.00 INR</li>
+                </ul>
+                <span>
+                    <button class="btn bg-info x-1">Buy</button>
+                    <button class="btn bg-danger mx-1">Add to cart</button>
+                </span>   
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+    
+
+</div>
+</body>
+<div>
+    <label> name</label>
+    <input type="text" [(ngModel)]="uName">
+    <button  (click)="submitOn()" type="submit">submit</button>
+</div>

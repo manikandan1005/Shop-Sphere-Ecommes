@@ -1,0 +1,107 @@
+<body >
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Shop Sphere</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Dress</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >offers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Skin care
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" >Face</a></li>
+                  <li><a class="dropdown-item" >Hair</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex gap-2">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+              <img class="image" src="" alt="">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="navbar   my-3 ">
+
+
+        <div class="row  p-1 m-3 ">
+            <div class="items p-2 d-flex flex-column col-md-1 ">
+              <img src="https://cdn-media.powerlook.in/catalog/product/3/0/302-1027120-1.jpg?aio=w-640" alt="">
+              <a  [routerLink]="['/home/shirt']">Off sleeve</a>
+            </div>
+            <div class="items p-2 d-flex flex-column col-md-1 ">
+              <img src="https://www.blackstitch.in/cdn/shop/files/LTST_TRND_PL_ORANGE_1_c217e4a8-7ee8-450a-a723-31f9f8155ef2.webp?v=1727152818" alt="">
+              <a [routerLink]="['/home/Full-sleeve']">Full sleeve</a>
+            </div>
+            <div class="items p-2 d-flex flex-column col-md-1 ">
+              <img src="https://contents.mediadecathlon.com/p2606947/k$1c9e0ffdefc3e67bdeabc82be7893e93/dry-men-s-running-breathable-t-shirt-red-decathlon-8771124.jpg?f=1920x0&format=auto" alt="">
+              <a [routerLink]="['/home/T-Shirt']">T-Shirt</a>
+            </div>
+            
+            <div class="items p-2 d-flex flex-column col-md-1  ">
+              <img src="https://images-cdn.ubuy.co.in/65ae586de9eedf13634c5eb2-dudhuh-mens-hoodie-fashion-pullover.jpg" alt="">
+              <a >Full sleeve</a>
+            </div>
+            <div class="items p-2 d-flex flex-column col-md-1  ">
+              <img src="https://4.imimg.com/data4/OK/OJ/MY-27369682/mens-full-slevee-t-shirts-500x500.jpg" alt="">
+              <a >hoodies</a>
+            </div>    
+            <div class="items p-2 d-flex flex-column col-md-1">
+              <img src="https://assets.ajio.com/medias/sys_master/root/20240213/D2Bk/65cb9ff516fd2c6e6af5e2a7/-473Wx593H-467069481-black-MODEL5.jpg" alt="">
+              <a > Pant</a>
+            </div>
+            <div class="items p-2 d-flex flex-column col-md-1 ">
+              <img src="https://baccabucci.com/cdn/shop/products/MG_5242.jpg?v=1633514122" alt="">
+              <a > Shoes</a>
+            </div>
+            
+            <div class="items p-2 d-flex flex-column col-md-1 ">
+              <img src="https://media.gq-magazine.co.uk/photos/6660cf60aa9580e0fa0b0b91/1:1/w_675,h_675,c_limit/Best-watch-brands-hp.jpeg" alt="">
+              <a >Watch</a>
+            </div>
+            
+            <div class="items p-2 d-flex flex-column col-md-1  ">
+              <img src="https://shop.globalbees.com/cdn/shop/products/51o_YlDKlhL_56e124aa-a832-4629-be78-73df76a90071.jpg?v=1690267414" alt="">
+              <a>mdj</a>
+            </div>
+             
+            <div class="items p-2 d-flex flex-column col-md-1  ">
+              <img src="https://images-cdn.ubuy.co.in/654a732ae78d956a9c5c474e-toddler-kids-baby-boys-summer-clothes.jpg" alt="">
+              <a>Kid's</a>
+            </div>
+            <div class="items p-2 d-flex flex-column col-md-1  ">
+              <img src="https://media.gq-magazine.co.uk/photos/6660cf60aa9580e0fa0b0b91/1:1/w_675,h_675,c_limit/Best-watch-brands-hp.jpeg" alt="">
+              <a>Watch</a>
+            </div>
+            
+            <div class="items p-2 d-flex flex-column col-md-1 ">
+              <img src="https://shop.globalbees.com/cdn/shop/products/51o_YlDKlhL_56e124aa-a832-4629-be78-73df76a90071.jpg?v=1690267414" alt="">
+              <a>hdf</a>
+            </div>      
+        </div>
+        
+    </div>
+  <section id="content" class="container">
+    <router-outlet></router-outlet>
+  </section >  
+  
+
+    
+</body>

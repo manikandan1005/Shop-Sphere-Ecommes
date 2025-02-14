@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+.head{
+    font-size: 50px;
+    font-weight: 200px;
+    color: #fff;
+    text-shadow:0 0 2px #000 ;
+}
+.items{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+}
+
+.items:hover{
+    transform: scale(1.1);
+    transition: 1.5s linear;
+}
+.items span{
+    margin-bottom: 0;
+}
+.items li{
+    margin-left: 0px;
+    width:200px;
+}
+
+ul li {
+    list-style-type: none;
+}
+body{
+    background-color: #fff;
+    padding: auto;
+    margin: auto;
+}

@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+}
+.image{
+    height: 50px;
+    width: 100%;
+    border-radius: 50%;
+}
+.container{
+    color: #fff;
+}
+.items{
+    height: 120px;
+    border-radius: 10px;
+}
+.items img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.items:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.no{
+    background-color: red;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    justify-content: space-between;
+}
