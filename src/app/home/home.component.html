@@ -8,10 +8,37 @@
         <p class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             Welcome to our Shop
         </p>
-        <form class="d-flex">
-          <button [routerLink]="['/login']" class="btn btn-outline-light" type="submit">Login/Sin-up</button>
-        </form>
+        <div class="d-flex ">
+          <button routerLink="/login" class="btn btn-outline-light" type="submit">Login/Sin-up</button>
+        </div>
       </div>
     </div>
   </nav>
+  <div class="offer-bar">
+    <p>Sign Up and <b>GET 20% OFF</b> for your first Order
+    <i id="offer-close"  style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i>
+    </p>
+</div>
+<div class="slider">
+  <div class="slider-left-button">
+      <i id="slider-left-activate" class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+  </div>
+
+  <div class="slider-content">
+      <h1>Level up your style with our</h1>
+      <h4>Summer Collections</h4> 
+      <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+  </div>
+
+  <div class="slider-image-container">
+      <img class="slider-image" src="src/images/slider-one.jpg"  width="100%" alt="">
+      <img class="slider-image" src="/src/images/slider-three.jpg" alt="">
+      <img class="slider-image" src="/src/images/slider-two.jpg" alt="">
+  </div>
+
+  <div class="slider-right-button">
+      
+      <i id="slider-right-activate" class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+  </div>
+</div>
 

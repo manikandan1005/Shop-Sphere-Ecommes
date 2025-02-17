@@ -1,6 +1,13 @@
 body{
     height: 100vh;
 }
+#collection{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#collection div{
+    text-align: center;
+}
 .image{
     height: 50px;
     width: 100%;
@@ -10,12 +17,10 @@ body{
     color: #fff;
 }
 .items{
-    height: 120px;
     border-radius: 10px;
 }
 .items img{
-    height: 100px;
-    width: 100px;
+
     text-align: center;
 }
 .items:hover{

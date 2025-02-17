@@ -7,6 +7,7 @@ import { ShirtComponent } from './shirt/shirt.component';
 import { TShirtComponent } from './t-shirt/t-shirt.component';
 import { FullSleeveComponent } from './full-sleeve/full-sleeve.component';
 import { WatchComponent } from '../products/watch/watch.component';
+import { ImgComponent } from './img/img.component';
 
 export const routes: Routes = [
     {
@@ -28,5 +29,8 @@ export const routes: Routes = [
     {
         path:'not',component:NotoComponent
     },
+    {
+        path:'img',component:ImgComponent
+    }
    
 ];

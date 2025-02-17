@@ -20,7 +20,13 @@ img{
 
 .items:hover{
     transform: scale(1.1);
-    transition: 1.5s linear;
+    transition: 0.5s linear;
+}
+.items div span button:hover{
+    background-color:greenyellow;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.3s linear;
 }
 .items span{
     margin-bottom: 0;
